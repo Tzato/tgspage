@@ -1,0 +1,228 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi ich bins, Tzato."
+  subtitle: "Indie-Game-Developer"
+  description: "© Tzato Game Studio."
+  image:
+    x: "img/showcase/nasty-ville-logo-borderless.png"                          # Bild an der rechten Seite
+    # _2x: "img/showcase/nasty-ville-screen.jpg"
+  imageMobile:
+    x: "img/showcase/nasty-ville-logo-borderless.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Kontakt"
+    URL: "mailto:kontakt@tzato.de"
+
+  button2:
+    icon2: "icon-discord-fill"
+    btnText2: "Discord"
+    URL2: "https://discord.gg/kYpAkwjEaY"
+
+  socialLinks:
+
+    - icon: "github"
+      URL: "https://github.com/tzato"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/tzatoofficial"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/tzatoofficial/"
+
+# about
+about:
+  enable: true
+  title: "Wer bin ich?"
+  content: '<p class="lead">
+Hauptberuflich bin ich Erzieher  und in meiner Freizeit bin ich daran interessiert spannende Spieleideen zu realisieren und euch damit zu begeistern.
+</p>
+    <p class="lead">
+Meine Projekte und geplanten Projekte(diese liegen schon weit in der Zukunft) findet ihr direkt hierunter.
+    </p>'
+ # button:
+   # icon: "icon-smile-fill"
+   # btnText: "About Me"
+   # URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/tzato-game-studio-emblem-border.png"
+  #  _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: false
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2012-2017"
+      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+
+    - university: "Sir John A Macdonald CI"
+      year: "2009-2012"
+      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+# experience
+experience:
+  enable: false
+  title: "Eigene Erfahrungen"
+  description: "Ich bin noch \u0022Frisch am Werk\u0022 was das entwickeln von Spielen angeht aber durchaus sehr motiviert."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Meine Projekte"
+  enable: true
+
+  clients:
+#    - logo:
+#        x: "img/clients/asgardia.png"
+#        _2x: "img/clients/asgardia@2x.png"
+#      alt: "Asgardia"
+
+#    - logo:
+#        x: "img/clients/earth-2.png"
+#        _2x: "img/clients/earth-2@2x.png"
+#      alt: "Earth 2.0"
+
+#    - logo:
+#        x: "img/clients/goldline.png"
+#        _2x: "img/clients/goldline@2x.png"
+#      alt: "Goldline"
+
+#    - logo:
+#        x: "img/clients/kanba.png"
+#        _2x: "img/clients/kanba@2x.png"
+#      alt: "Kanba"
+
+#    - logo:
+#        x: "img/clients/zoo-tv.png"
+#        _2x: "img/clients/zoo-tv@2x.png"
+#      alt: "Zoo"
+
+#    - logo:
+#        x: "img/clients/ztos.png"
+#        _2x: "img/clients/ztos@2x.png"
+#      alt: "Ztos"
+
+  works:
+    - title: "Mein Browsergame: Nastyville"
+      description: "Ich arbeite hart an meinem eigenen Browsergame. Es ist ein Gangster Spiel. Schaut einfach mal rein! Viel mehr Informationen zum Spiel findet ihr natürlich auf dem Discord, wie auch selbstverständlich auf der Spieleseite selbst."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Nastyville"
+        URL: "https://www.nastyville.eu"
+      button2:
+        icon2: "icon-arrow-right"
+        btnText2: "Wiki"
+        URL2: "https://wiki.nastyville.eu"
+      button3:
+        icon3: "icon-arrow-right"
+        btnText3: "Discord"
+        URL3: "https://discord.gg/ayZaYtzryx"
+      button4:
+        icon4: "icon-arrow-right"
+        btnText4: "Roadmap"
+        URL4: "https://roadmap.nastyville.eu"
+      image:
+        x: "img/showcase/nasty-ville-logo-borderless.png"
+        # _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Mein Tool: Gather Craft"
+      description: "Dies ist mein Albion Online Projekt. Derzeit wird es nur auf einem Discord Server realisiert. Zukünftig soll eine Internetseite dazu kommen. Schaut einfach mal rein wenn ihr Albion Online Spieler seit!"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Gather Craft Discord"
+        URL: "https://discord.gg/c8pSNX3bpY"
+      image:
+        x: "img/works/gathercraft.png"
+        #_2x: "img/works/gathercraft.png"
+      is_even: false
+
+    - title: "Mein Browsergame: Imexias"
+      description: "Für Imexias gibt es noch keine öffentlichen Informationen da es noch Top Secret ist."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "coming soon..."
+        URL: "#"
+      image:
+        x: "img/works/surprise.png"
+       # _2x: "img/works/surprise.png"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Kontakt"
+  form:
+    action: "#"
+    full_name: "Name, Vorname"
+    email: "eMail Adresse"
+    message: "Geben Sie hier Ihre Nachricht ein"
+ # phone:
+ #   title: "Mobil"
+ #   number: "+49 01 72 36 52 41 5"
+  email:
+    title: "Email"
+    email: '<a href="mailto:kontakt@tzato.de">kontakt@tzato.de</a>'
+  address:
+    title: "Adresse"
+    address: "Tzato Game Studio<br />Silvio Wolf<br />Elsasser Str. 11, 01307 Dresden"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Nachricht absenden"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
